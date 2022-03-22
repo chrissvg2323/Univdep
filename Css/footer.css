@@ -1,0 +1,99 @@
+footer {
+    /* background-color: #212121; */
+    /* #1b456d; */
+    /* background-color: #28435d; */
+  background-color: #1b1b1b;
+
+    margin: auto;
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+}
+
+.pie {
+    text-align: left;
+    padding: 10px;
+    padding-left: 30px;
+    background: black;
+    color: #fff;
+}
+
+.pie p {
+    font-size: 15px;
+}
+
+.info-left img,
+.info-center img {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    float: left;
+}
+
+div.info-contacto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ico-ubi {
+    margin-left: 0px;
+}
+
+.ico-ubi img {
+    margin-top: 1%;
+    margin-right: 20px;
+}
+
+footer aside {
+    margin: 15px;
+}
+
+footer a {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer h1 {
+    border-bottom: 5px solid rgb(255, 255, 255);
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.info-center aside {
+    margin-left: 0px;
+}
+
+footer iframe {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .info-left,
+    .info-center,
+    .info-right {
+        width: 33.3%;
+    }
+    .info-center aside {
+        margin-right: 60px;
+        text-align: justify;
+    }
+}
