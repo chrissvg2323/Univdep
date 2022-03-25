@@ -387,13 +387,10 @@ input[type="checkbox"] {
 
 }
 
-
 .Contorno2 img{
   width: 250px;
   height: 200px;
 }
-
-
 
 .botonesMenu{
   width: 200px;
@@ -424,8 +421,6 @@ input[type="checkbox"] {
 .ir-arriba {
 	display:none;
 	background:#E42A22;
-	font-size:20px;
-	color:#fff;
 	cursor:pointer;
 	position: fixed;
 	bottom:20px;
