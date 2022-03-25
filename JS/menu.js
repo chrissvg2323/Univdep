@@ -316,20 +316,15 @@ postres.addEventListener("click", function(evento){
 
 //Boton ir arriba
 
-$(document).ready(function(){
+window.addEventListener('scroll', function(){
+    let banner = document.getElementById('banner');
+    let posicion = banner.getBoundingClientRect().top;
+    const button_arriba = document.getElementById('button_arriba');
+    console.log(posicion);
 
-	$('.ir-arriba').click(function(){
-		$('body, html').animate({
-			scrollTop: '0px'
-		}, 300);
-	});
-
-	$(window).scroll(function(){
-		if( $(this).scrollTop() > 0 ){
-			$('.ir-arriba').slideDown(300);
-		} else {
-			$('.ir-arriba').slideUp(300);
-		}
-	});
-
+    if(posicion == 0){
+        button_arriba.style.display = "none";
+    }else{
+        button_arriba.style.display = "block";
+    }
 });
