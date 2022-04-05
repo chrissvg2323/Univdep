@@ -2,9 +2,11 @@
 @import url(footer.css);
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
   font-size: 62.5%;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  background-color: #d8d8d8;
 }
 
 *,
@@ -15,7 +17,7 @@ html {
 
 .contenedor {
   max-width: 1000px;
-  width: 95%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -139,6 +141,15 @@ hr.separadora {
   border-radius: 5px;
 
 }
+
+
+.sombra{
+  box-shadow: 0px 5px 15px 0px rgb(112, 112, 122, 0.54);
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 0 0 20px 0;
+}
+
 
 /*---------------------------------------------------- Navegador---------------------------------------------------------- */
 
@@ -417,7 +428,6 @@ input[type="checkbox"] {
   background-position: center;
   height: 30rem;
 }
-
 .ir-arriba {
 	display:none;
 	background:#E42A22;
@@ -426,6 +436,7 @@ input[type="checkbox"] {
 	bottom:20px;
 	right:20px;
   padding: 10px;
+  border-radius: 50px;
 }
 
 .ir-arriba img{
